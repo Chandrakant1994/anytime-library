@@ -1,0 +1,33 @@
+.AddBook{
+    margin : 20px auto;
+    text-align: left;
+    width: 40%;
+    border: 1px solid #ccc;
+}
+
+h3{
+    margin: 20px;
+}
+
+.Input{
+    display: block;
+}
+
+.Button{
+    margin:20px;
+    font-size : 17px;
+    cursor : pointer;
+    padding : 8px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+.Button:hover{
+    background-color: #2196F3;
+    color : white;
+}
+
+.image{
+    margin : 20px
+}

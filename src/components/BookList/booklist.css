@@ -1,0 +1,12 @@
+.booklist{
+    width : 1000px;
+    height: 800px;
+    /* overflow-y: auto; */
+    margin : auto;
+    margin-top: 70px;
+    display :grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 1em;
+    grid-auto-flow: row;
+    padding-bottom: 20px;
+}

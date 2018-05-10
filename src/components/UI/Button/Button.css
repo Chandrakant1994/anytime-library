@@ -1,0 +1,20 @@
+.Button{
+    font-size : 17px;
+    cursor : pointer;
+    padding : 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.Button:hover{
+    background-color: #2196F3;
+    color : white;
+}
+
+.Basic{
+background-color: #ddd;
+}
+
+.Danger{
+    background-color: indianred;
+}

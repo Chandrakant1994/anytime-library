@@ -1,0 +1,30 @@
+.SearchBar{
+    width : 800px;
+    margin: auto;
+    display : grid;
+    grid-template-columns: 40% 20% 15%;
+    grid-column-gap: 15px;
+    margin-top: 8px;
+}
+
+.SearchBar input{
+    padding: 6px;
+    
+    font-size: 17px;
+    border: 1px thin black;
+    border-radius: 3px;
+}
+
+.SearchBar button{
+    font-size : 17px;
+    cursor : pointer;
+    padding : 5px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+.SearchBar button:hover{
+    background-color: #2196F3;
+    color : white;
+}

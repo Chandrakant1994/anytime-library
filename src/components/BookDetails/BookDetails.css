@@ -1,0 +1,25 @@
+ p{
+    color : grey;
+    font-size: 12px;
+}
+
+ img{
+    float: left;
+    box-shadow: 0px 5px 10px #aaa;
+    border-radius: 5px;
+    height: inherit;
+}
+
+ img:hover{
+    float: left;
+    box-shadow: 0px 10px 20px #aaa;
+    border-radius: 5px;
+}
+
+
+.details{
+    /* float:auto; */
+    margin: auto;
+    max-height: inherit;
+    display: block;
+}
