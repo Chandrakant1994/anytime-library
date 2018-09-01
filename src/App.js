@@ -20,6 +20,7 @@ class App extends Component {
         <Router>
           <div>
             <Link to="/admin">AdminPage</Link>
+            <Link to="/">Home</Link>
             <Switch>
             <Route path='/admin' render={() => <AdminView />} />
             <Route path='/user' component={UserView} />

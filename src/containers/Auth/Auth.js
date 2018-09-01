@@ -82,7 +82,7 @@ class Auth extends Component {
                 Switch to {this.state.isSignup ? 'Signin' : 'Signup'}
             </button>
              {(this.state.authenticated && 
-             <Redirect to='/user' />) } 
+             <Redirect to={`/user/id:${this.state.userId}`} />) } 
         </div>
     }
 }

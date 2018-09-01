@@ -1,0 +1,15 @@
+-   Allow admin to manage number of copies for books.
+
+        Should be able to enter number of copies while adding Book.
+
+        Should be able to update number of copies of existing Books.
+
+                Needs a view to see all the books and quantity, update quantity.
+
+        should the user be able to see number of copies available for each book - YES
+
+
+-   Manage books quantity on Book issue/Return.
+
+-   
+
